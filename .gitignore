@@ -7,3 +7,5 @@
 /AbstractFactory/bin/Debug/netcoreapp3.1
 /AbstractFactory/.vs/AbstractFactory/v17
 /AbstractFactory/.vs/Patterns/v17
+/Builder/obj
+/Builder/bin/Debug/netcoreapp3.1
