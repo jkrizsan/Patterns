@@ -9,3 +9,5 @@
 /AbstractFactory/.vs/Patterns/v17
 /Builder/obj
 /Builder/bin/Debug/netcoreapp3.1
+/FactoryMethod/bin/Debug/netcoreapp3.1
+/FactoryMethod/obj
