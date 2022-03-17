@@ -17,3 +17,5 @@
 /Singleton/obj
 /Adapter/bin/Debug/netcoreapp3.1
 /Adapter/obj
+/Bridge/bin/Debug/netcoreapp3.1
+/Bridge/obj
