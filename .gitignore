@@ -13,3 +13,5 @@
 /FactoryMethod/obj
 /Prototype/bin/Debug/netcoreapp3.1
 /Prototype/obj
+/Singleton/bin/Debug/netcoreapp3.1
+/Singleton/obj
