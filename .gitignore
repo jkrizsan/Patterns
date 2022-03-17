@@ -21,3 +21,5 @@
 /Bridge/obj
 /Composite/obj
 /Composite/bin/Debug/netcoreapp3.1
+/Decorator/obj
+/Decorator/bin/Debug/netcoreapp3.1
