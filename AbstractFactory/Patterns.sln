@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "..\Proxy\Proxy.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResp", "..\ChainOfResp\ChainOfResp.csproj", "{7E6FEF24-3E4B-46C3-A8E6-263848493418}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "..\Command\Command.csproj", "{183A0CAD-481D-483C-A50E-D6A9D4060475}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7E6FEF24-3E4B-46C3-A8E6-263848493418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E6FEF24-3E4B-46C3-A8E6-263848493418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E6FEF24-3E4B-46C3-A8E6-263848493418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183A0CAD-481D-483C-A50E-D6A9D4060475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183A0CAD-481D-483C-A50E-D6A9D4060475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183A0CAD-481D-483C-A50E-D6A9D4060475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183A0CAD-481D-483C-A50E-D6A9D4060475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
