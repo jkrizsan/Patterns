@@ -1,5 +1,6 @@
 ﻿using System;
-using Bridge.Data;
+using Bridge.Abstractions;
+using Bridge.Bridges;
 
 namespace Bridge
 {
@@ -10,21 +11,32 @@ namespace Bridge
     {
         public static void Main(string[] args)
         {
-            // Create RefinedAbstraction
-            var customers = new Customers.Customers();
+            IMessageSender email = new EmailSender();
+            IMessageSender queue = new MSMQSender();
+            IMessageSender web = new WebServiceSender();
 
-            // Set ConcreteImplementor
-            customers.Data = new CustomersData("Chicago");
+            Message message = new SystemMessage();
+            message.Subject = "Test Message";
+            message.Body = "Hi, This is a Test Message";
 
-            // Exercise the bridge
-            customers.Show();
-            customers.Next();
-            customers.Show();
-            customers.Next();
-            customers.Show();
-            customers.Add("Henry Velasquez");
-            customers.ShowAll();
+            message.MessageSender = email;
+            message.Send();
 
+            message.MessageSender = queue;
+            message.Send();
+
+            message.MessageSender = web;
+            message.Send();
+
+            UserMessage usermsg = new UserMessage();
+            usermsg.Subject = "Test Message";
+            usermsg.Body = "Hi, This is a Test Message";
+            usermsg.UserComments = "I hope you are well";
+
+            usermsg.MessageSender = email;
+            usermsg.Send();
+
+            Console.ReadKey();
             Console.ReadKey();
         }
     }
