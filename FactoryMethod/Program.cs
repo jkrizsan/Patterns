@@ -1,32 +1,23 @@
-﻿using System;
-using FactoryMethod.AbstractProducts;
-using FactoryMethod.ConcreteCreators;
+﻿using FactoryMethod.Abstracts;
+using FactoryMethod.Interfaces;
+using System;
 
 namespace FactoryMethod
 {
     /// <summary>
-    /// MainApp startup class for Real-World 
-    /// Factory Method Design Pattern.
+    /// Factory Pattern Demo
     /// </summary>
-    class MainApp
+    class Program
     {
-        /// <summary>
-        /// Entry point into console application.
-        /// </summary>
-        static void Main()
+        static void Main(string[] args)
         {
-            Document[] documents = new Document[2];
-            documents[0] = new Resume();
-            documents[1] = new Report();
+            VehicleFactory factory = new ConcreteVehicleFactory();
 
-            foreach (Document document in documents)
-            {
-                Console.WriteLine("\n" + document.GetType().Name + "--");
-                foreach (Page page in document.Pages)
-                {
-                    Console.WriteLine(" " + page.GetType().Name);
-                }
-            }
+            IFactory scooter = factory.GetVehicle("Scooter");
+            scooter.Drive(10);
+
+            IFactory bike = factory.GetVehicle("Bike");
+            bike.Drive(20);
 
             Console.ReadKey();
         }
