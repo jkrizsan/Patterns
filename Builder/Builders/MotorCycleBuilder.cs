@@ -10,27 +10,27 @@ namespace Builder.Builders
     {
         public MotorCycleBuilder()
         {
-            vehicle = new Vehicle("MotorCycle");
+            Vehicle = new Vehicle("MotorCycle");
         }
 
         public override void BuildFrame()
         {
-            vehicle["frame"] = "MotorCycle Frame";
+            Vehicle["frame"] = "MotorCycle Frame";
         }
 
         public override void BuildEngine()
         {
-            vehicle["engine"] = "500 cc";
+            Vehicle["engine"] = "500 cc";
         }
 
         public override void BuildWheels()
         {
-            vehicle["wheels"] = "2";
+            Vehicle["wheels"] = "2";
         }
 
         public override void BuildDoors()
         {
-            vehicle["doors"] = "0";
+            Vehicle["doors"] = "0";
         }
     }
 }

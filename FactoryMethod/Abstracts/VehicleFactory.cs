@@ -1,4 +1,5 @@
-﻿using FactoryMethod.Interfaces;
+﻿using FactoryMethod.Enums;
+using FactoryMethod.Interfaces;
 
 namespace FactoryMethod.Abstracts
 {
@@ -7,6 +8,6 @@ namespace FactoryMethod.Abstracts
     /// </summary>
     public abstract class VehicleFactory
     {
-        public abstract IFactory GetVehicle(string Vehicle);
+        public abstract IFactory GetVehicle(VehicleTypes Vehicle);
     }
 }

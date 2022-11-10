@@ -7,12 +7,7 @@ namespace Builder.Abstracts
     /// </summary>
     abstract class VehicleBuilder
     {
-        protected Vehicle vehicle;
-
-        public Vehicle Vehicle
-        {
-            get { return vehicle; }
-        }
+        public Vehicle Vehicle{ get; protected set; }
 
         public abstract void BuildFrame();
 

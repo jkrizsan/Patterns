@@ -1,5 +1,6 @@
 ﻿using FactoryMethod.Abstracts;
 using FactoryMethod.ConcreteProducts;
+using FactoryMethod.Enums;
 using FactoryMethod.Interfaces;
 using System;
 
@@ -10,13 +11,13 @@ namespace FactoryMethod
     /// </summary>
     public class ConcreteVehicleFactory : VehicleFactory
     {
-        public override IFactory GetVehicle(string Vehicle)
+        public override IFactory GetVehicle(VehicleTypes Vehicle)
         {
             switch (Vehicle)
             {
-                case "Scooter":
+                case VehicleTypes.Scooter:
                     return new Scooter();
-                case "Bike":
+                case VehicleTypes.Bike:
                     return new Bike();
                 default:
                     throw new ApplicationException(string.Format("Vehicle '{0}' cannot be created", Vehicle));

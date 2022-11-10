@@ -17,9 +17,9 @@ namespace Command
             Operator = @operator;
         }
 
-        public char Operator { private get; set; }
+        public char Operator { get; set; }
 
-        public int Operand { private get; set; }
+        public int Operand { get; set; }
 
         public override void Execute()
             => _calculator.Operation(Operator, Operand);
