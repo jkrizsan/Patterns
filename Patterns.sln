@@ -3,51 +3,51 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory.csproj", "{3966D41F-23FC-4EE0-B398-AE65541A8D0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{3966D41F-23FC-4EE0-B398-AE65541A8D0E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "..\Builder\Builder.csproj", "{EBB39044-BC4F-49EC-9B4D-2D916AF27B92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{EBB39044-BC4F-49EC-9B4D-2D916AF27B92}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "..\FactoryMethod\FactoryMethod.csproj", "{A978C5F6-FCF0-4578-B13C-DBFD425F5A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{A978C5F6-FCF0-4578-B13C-DBFD425F5A70}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "..\Prototype\Prototype.csproj", "{4694E16C-CD54-4C51-9A88-330F9709708C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{4694E16C-CD54-4C51-9A88-330F9709708C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "..\Singleton\Singleton.csproj", "{78A0D81D-5DED-4568-BE95-5BA37D68EB41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{78A0D81D-5DED-4568-BE95-5BA37D68EB41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "..\Adapter\Adapter.csproj", "{8D2F3235-5784-4BD4-A2D5-8968DCBC478F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{8D2F3235-5784-4BD4-A2D5-8968DCBC478F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "..\Bridge\Bridge.csproj", "{AF63C281-35A2-41F9-9023-830D0AC03403}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{AF63C281-35A2-41F9-9023-830D0AC03403}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "..\Composite\Composite.csproj", "{7AEAA8A9-0DD7-414A-B7B0-F40CFEDB9FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{7AEAA8A9-0DD7-414A-B7B0-F40CFEDB9FA5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "..\Decorator\Decorator.csproj", "{8F140074-2E3B-4124-8109-192A16B26CD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{8F140074-2E3B-4124-8109-192A16B26CD1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "..\Facade\Facade.csproj", "{A1CB3BA9-CB7B-4F11-9413-462230573D64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{A1CB3BA9-CB7B-4F11-9413-462230573D64}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "..\Flyweight\Flyweight.csproj", "{5D86A119-48BB-47E2-9B7D-B2D617D298F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{5D86A119-48BB-47E2-9B7D-B2D617D298F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "..\Proxy\Proxy.csproj", "{4D5BC965-F14D-44FA-9D0A-6133B5E9E97A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{4D5BC965-F14D-44FA-9D0A-6133B5E9E97A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResp", "..\ChainOfResp\ChainOfResp.csproj", "{7E6FEF24-3E4B-46C3-A8E6-263848493418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResp", "ChainOfResp\ChainOfResp.csproj", "{7E6FEF24-3E4B-46C3-A8E6-263848493418}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "..\Command\Command.csproj", "{183A0CAD-481D-483C-A50E-D6A9D4060475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{183A0CAD-481D-483C-A50E-D6A9D4060475}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "..\Interpreter\Interpreter.csproj", "{2FCAF4E5-0AE9-4E23-BBDA-CC5BD2A6F632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Interpreter\Interpreter.csproj", "{2FCAF4E5-0AE9-4E23-BBDA-CC5BD2A6F632}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "..\Iterator\Iterator.csproj", "{8185FE1D-AD6D-4371-8649-E885DC2743FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{8185FE1D-AD6D-4371-8649-E885DC2743FB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "..\Mediator\Mediator.csproj", "{12D58F2E-5A17-4390-810F-11DAC17CBD9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{12D58F2E-5A17-4390-810F-11DAC17CBD9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "..\Memento\Memento.csproj", "{B4722540-C42A-42CD-AD8B-135A6D2AA948}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{B4722540-C42A-42CD-AD8B-135A6D2AA948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "..\Observer\Observer.csproj", "{1C84C423-E3BE-418E-A6C6-DA99C11C9196}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{1C84C423-E3BE-418E-A6C6-DA99C11C9196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "..\State\State.csproj", "{61085F5D-E724-4B65-9C76-600AFF83C9CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{61085F5D-E724-4B65-9C76-600AFF83C9CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "..\Strategy\Strategy.csproj", "{CC913E2F-279D-4D36-B62A-F5DC1DF335F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{CC913E2F-279D-4D36-B62A-F5DC1DF335F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "..\TemplateMethod\TemplateMethod.csproj", "{51AA54BE-3ED5-4C7C-B6D7-44C352D28C32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{51AA54BE-3ED5-4C7C-B6D7-44C352D28C32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "..\Visitor\Visitor.csproj", "{71560D93-410E-4CAF-AFFA-38A6AA3465E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{71560D93-410E-4CAF-AFFA-38A6AA3465E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
