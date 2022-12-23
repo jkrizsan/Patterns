@@ -37,7 +37,6 @@ namespace Bridge
             usermsg.Send();
 
             Console.ReadKey();
-            Console.ReadKey();
         }
     }
 }
