@@ -1,3 +1,3 @@
 # Patterns
 
-https://www.dofactory.com/net/builder-design-pattern
+Most common C# design patterns implemented for practise purposes
