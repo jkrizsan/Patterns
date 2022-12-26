@@ -17,17 +17,15 @@ namespace Facade
             Console.WriteLine("{0} applies for {1:C} loan\n",
                 cust.Name, amount);
 
-            bool eligible = true;
-
             // Check creditworthyness of applicant
             if (!_bank.HasSufficientSavings(cust, amount)
                 || !_loan.HasNoBadLoans(cust)
                 || !_credit.HasGoodCredit(cust))
             {
-                eligible = false;
+                return false;
             }
 
-            return eligible;
+            return true;
         }
     }
 }
