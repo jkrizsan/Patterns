@@ -8,24 +8,24 @@ namespace Strategy
     /// </summary>
     public class SortedList
     {
-        private List<string> list = new List<string>();
-        private SortStrategy sortstrategy;
+        private List<string> _list = new List<string>();
+        private SortStrategy _sortstrategy;
 
         public void SetSortStrategy(SortStrategy sortstrategy)
         {
-            this.sortstrategy = sortstrategy;
+            _sortstrategy = sortstrategy;
         }
 
         public void Add(string name)
         {
-            list.Add(name);
+            _list.Add(name);
         }
 
         public void Sort()
         {
-            sortstrategy.Sort(list);
+            _sortstrategy.Sort(_list);
 
-            foreach (string name in list)
+            foreach (string name in _list)
             {
                 Console.WriteLine(" " + name);
             }

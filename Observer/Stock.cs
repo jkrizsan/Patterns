@@ -8,44 +8,46 @@ namespace Observer
     /// </summary>
     public abstract class Stock
     {
-        private string symbol;
-        private double price;
-        private List<IInvestor> investors = new List<IInvestor>();
+        private string _symbol;
+
+        private double _price;
+
+        private List<IInvestor> _investors = new List<IInvestor>();
 
         public Stock(string symbol, double price)
         {
-            this.symbol = symbol;
-            this.price = price;
+            _symbol = symbol;
+            _price = price;
         }
 
         public void Attach(IInvestor investor)
         {
-            investors.Add(investor);
+            _investors.Add(investor);
         }
 
         public void Detach(IInvestor investor)
         {
-            investors.Remove(investor);
+            _investors.Remove(investor);
         }
 
         public void Notify()
         {
-            foreach (IInvestor investor in investors)
+            foreach (IInvestor investor in _investors)
             {
                 investor.Update(this);
             }
 
-            Console.WriteLine("");
+            Console.WriteLine(string.Empty);
         }
 
         public double Price
         {
-            get { return price; }
+            get { return _price; }
             set
             {
-                if (price != value)
+                if (_price != value)
                 {
-                    price = value;
+                    _price = value;
                     Notify();
                 }
             }
@@ -53,7 +55,7 @@ namespace Observer
 
         public string Symbol
         {
-            get { return symbol; }
+            get { return _symbol; }
         }
     }
 }
